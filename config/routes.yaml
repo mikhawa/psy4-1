@@ -1,5 +1,8 @@
 # config/routes.yaml
 # "app_hasard_number" 
-app_lucky_number:
+app_hasard_number:
     path: /has/number
     controller: App\Controller\HasardController::number
+app_nb_number:
+    path: /nb/{n}
+    controller: App\Controller\HasardController::number2
