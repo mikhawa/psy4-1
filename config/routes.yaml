@@ -1,3 +1,5 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+# config/routes.yaml
+# "app_hasard_number" 
+app_lucky_number:
+    path: /has/number
+    controller: App\Controller\HasardController::number
